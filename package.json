@@ -1,0 +1,17 @@
+{
+  "name": "ananda-voice-bot-demo",
+  "version": "1.0.0",
+  "description": "Lightweight voice bot demo webpage for Ananda Spa",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve",
+    "start": "serve"
+  },
+  "keywords": [
+    "ananda",
+    "voice-bot",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC"
+}
