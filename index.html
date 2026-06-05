@@ -278,8 +278,7 @@
     </div>
 
     <script>
-        const API_ENDPOINT = 'https://hv-sales-bot-degree-orchestrator.herovired.com/webhooks/lsq/lead/ananda';
-        const API_KEY = 'al6d2506acf4d7b9606cdbd93favd9634985adeb4e49e9750dbe79';
+        const API_ENDPOINT = '/api/submit';
 
         const form = document.getElementById('demoForm');
         const messageEl = document.getElementById('message');
@@ -378,8 +377,7 @@
                 const response = await fetch(API_ENDPOINT, {
                     method: 'POST',
                     headers: {
-                        'Content-Type': 'application/json',
-                        'x-api-key': API_KEY
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify(payload)
                 });
